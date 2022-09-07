@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="form" action="">
+            <div class="profile_picture"><img src="profile-icon-design-free-vector.jpg" alt=""></div>
+            <input type="text" id="userName_input" placeholder="Username" onkeydown="userNamePress()">
+
+            <p class="userNameVal">Username must be at least 6 characters</p>
+    
+            <input type="password" id="password_input" placeholder="Password" onkeydown="userPassPress()">
+
+            <p class="userPassVal">Password must be at least 10 characters</p>
+    
+            <input class="submit_button" type="button" value="submit" onclick="onSubmit()">
+            <input class="reset_button" type="reset" value="reset">
+            <p>Not registed ?  <a href="">Create an account</a></p>
+            <div class="modal">Login Completed</div>
+        </form>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>

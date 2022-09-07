@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(117, 189, 127);
+    font-family: Roboto;
+}
+.container{
+    max-width: 260px;
+    margin: 200px auto;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    border-radius: 5px;
+    padding: 20px 15px;
+    position: relative;
+}
+.profile_picture{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    border: 2px solid #007e06;
+    top: -65px;
+    left: 70px;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+}
+form{
+    margin: 10px;
+    margin-top: 50px;
+}
+input{
+    width: 100%;
+    border: 2px solid #26860b;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: none;
+}
+label{
+    padding: 20px;
+}
+.submit_button{
+    margin-top: 0;
+    padding: 5px;
+    border: 2px solid #a2ce96;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.submit_button:hover{
+    background-color: #cbffbd;
+}
+.reset_button{
+    margin-top: 0;
+    padding: 5px;
+    border: 2px solid #a2ce96;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.reset_button:hover{
+    background-color: #cbffbd;
+}
+p{
+    text-align: center;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color: #3ac214;
+}
+.modal{
+    background-color: #a5c983;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    display: none;
+}
+.userNameVal {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: rgb(252, 103, 103);
+    display: none;
+}
+.userPassVal {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: rgb(252, 103, 103);
+    display: none;
+}
